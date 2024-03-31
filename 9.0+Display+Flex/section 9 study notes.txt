@@ -1,0 +1,11 @@
+css要点（一）——flex
+
+1) display: flex 和display: inline-flex，后者使flex容器根据内容大小来决定自身大小；
+2) flex-direction: column; 纵向排列
+3) Child combinator(>), select all the elements that are the DIRECT children of the parent class: 
+For example,
+.container > * {}
+4)justify-content 和align-items的区别：
+justify-content 用于控制子元素在主轴（水平方向）上的对齐方式。
+align-items 用于控制子元素在交叉轴（垂直方向）上的对齐方式。
+5）flex: 1 =>指flex: 1 1 0 =>即 flex-grow: 1, flex-shrink: 1, flex-basis: 0;
